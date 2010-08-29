@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://bibmixcmsearch/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://bibmixcmsearch/locale/overlay.dtd">
+<overlay id="bibmixcmsearch-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="bibmixcmsearch-strings" src="chrome://bibmixcmsearch/locale/overlay.properties"/>
+  </stringbundleset>
+
+  <popup id="contentAreaContextMenu">
+    <menuitem id="context-bibmixcmsearch" label="&bibmixcmsearchContext.label;"
+              accesskey="&bibmixcmsearchContext.accesskey;"
+              insertafter="context-stop"
+              oncommand="bibmixcmsearch.onMenuItemCommand(event)"/>
+  </popup>
+
+
+
+  <menupopup id="viewSidebarMenu">
+    <menuitem key="key_openSidebar_bibmixcmsearch" observes="viewSidebar_bibmixcmsearch" />
+  </menupopup>
+
+  <keyset id="mainKeyset">
+    <key id="key_openSidebar_bibmixcmsearch" command="viewSidebar_bibmixcmsearch" />
+  </keyset>
+
+  <broadcasterset id="mainBroadcasterSet">
+    <broadcaster id="viewSidebar_bibmixcmsearch"
+                 label="&bibmixcmsearchSidebar.label;"
+                 autoCheck="false"
+                 type="checkbox"
+                 group="sidebar"
+                 sidebarurl="chrome://bibmixcmsearch/content/ff-sidebar.xul"
+                 sidebartitle="&bibmixcmsearchSidebar.label;"
+                 oncommand="toggleSidebar('viewSidebar_bibmixcmsearch');" />
+  </broadcasterset>
+
+</overlay>

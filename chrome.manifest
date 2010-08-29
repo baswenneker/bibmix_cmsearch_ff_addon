@@ -1,0 +1,6 @@
+content   bibmixcmsearch                 chrome/content/
+skin      bibmixcmsearch   classic/1.0   chrome/skin/
+locale    bibmixcmsearch   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://bibmixcmsearch/content/ff-overlay.xul

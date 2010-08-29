@@ -1,0 +1,8 @@
+<!ENTITY bibmixcmsearch.label "Your localized menuitem">
+<!ENTITY bibmixcmsearchContext.label "Your Menuitem">
+<!ENTITY bibmixcmsearchContext.accesskey "Y">
+<!ENTITY bibmixcmsearchToolbarButton.label "Your Toolbar Button">
+<!ENTITY bibmixcmsearchToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY bibmixcmsearchSidebar.label "Your Sidebar">
+<!ENTITY bibmixcmsearchToolbar.name  "example">
+<!ENTITY bibmixcmsearchToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &bibmixcmsearchToolbar.name;">
