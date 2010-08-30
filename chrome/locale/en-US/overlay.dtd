@@ -1,8 +1,14 @@
 <!ENTITY bibmixcmsearch.label "Your localized menuitem">
 <!ENTITY bibmixcmsearchContext.label "Your Menuitem">
 <!ENTITY bibmixcmsearchContext.accesskey "Y">
+<!ENTITY bibmixcmsearchContext.label.commandKey "B">
+<!ENTITY bibmixcmsearchContext.label.modifierskey "alt accel">
 <!ENTITY bibmixcmsearchToolbarButton.label "Your Toolbar Button">
 <!ENTITY bibmixcmsearchToolbarButton.tooltip "This is your toolbar button!">
-<!ENTITY bibmixcmsearchSidebar.label "Your Sidebar">
+<!ENTITY bibmixcmsearchSidebar.label "BibMix Citation Metadata">
+
+<!ENTITY bibmixcmsearchSidebar.title "BibMix Citation Metadata">
+<!ENTITY openBibmixcmsearchSidebar.commandKey "M">
+<!ENTITY openBibmixcmsearchSidebar.modifierskey "alt accel">
 <!ENTITY bibmixcmsearchToolbar.name  "example">
 <!ENTITY bibmixcmsearchToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &bibmixcmsearchToolbar.name;">

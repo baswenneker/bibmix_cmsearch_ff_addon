@@ -4,7 +4,8 @@
 <overlay id="bibmixcmsearch-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <script src="overlay.js"/>
   <script src="ff-overlay.js"/>
-
+  <script src="prototypejs.js"/>
+  
   <stringbundleset id="stringbundleset">
     <stringbundle id="bibmixcmsearch-strings" src="chrome://bibmixcmsearch/locale/overlay.properties"/>
   </stringbundleset>
@@ -23,7 +24,10 @@
   </menupopup>
 
   <keyset id="mainKeyset">
-    <key id="key_openSidebar_bibmixcmsearch" command="viewSidebar_bibmixcmsearch" />
+    <key id="key_openSidebar_bibmixcmsearch" command="viewSidebar_bibmixcmsearch" 
+    	key="&openBibmixcmsearchSidebar.commandKey;" 
+        modifiers="&openBibmixcmsearchSidebar.modifierskey;" />
+    />
   </keyset>
 
   <broadcasterset id="mainBroadcasterSet">

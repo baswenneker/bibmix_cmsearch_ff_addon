@@ -2,11 +2,121 @@
 <?xml-stylesheet href="chrome://global/skin/" type"text/css" ?>
 <!DOCTYPE page SYSTEM "chrome://bibmixcmsearch/locale/overlay.dtd">
 
-<page id="bibmixcmsearchSidebar" title="&bibmixcmsearchSidebar.label;"
+<page id="bibmixcmsearchSidebar" title="&bibmixcmsearchSidebar.title;"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <script src="ff-sidebar.js"/>
 
   <vbox flex="1">
-    <label value="&bibmixcmsearchSidebar.label;" />
+  
+  <tabbox id="xulschoolhello-tabbox">
+  <tabs>
+    <tab label="Reference" />
+    <tab label="BibTeX" />
+  </tabs>
+  <tabpanels>
+    <tabpanel>
+      <grid id="refGrid" hidden="true">
+  <columns>
+    <column/>
+    <column flex="1"/>
+  </columns>
+  <rows>
+    <row align="center">
+      <label value="Citation" />
+      <textbox id="citation"/>
+    </row>
+    <row align="center">
+      <label value="Address"/>
+      <textbox id="address"/>
+    </row>
+    <row align="center">
+      <label value="Annote"/>
+      <textbox id="annote"/>
+    </row>
+    <row align="center">
+      <label value="Author"/>
+      <textbox id="author"/>
+    </row>
+    <row align="center">
+      <label value="Booktitle"/>
+      <textbox id="booktitle"/>
+    </row>
+    <row align="center">
+      <label value="Crossref"/>
+      <textbox id="Crossref"/>
+    </row>
+    <row align="center">
+      <label value="Editor"/>
+      <textbox id="editor"/>
+    </row>
+    <row align="center">
+      <label value="Institution"/>
+      <textbox id="institution"/>
+    </row>
+    <row align="center">
+      <label value="Journal"/>
+      <textbox id="journal"/>
+    </row>
+    <row align="center">
+      <label value="Key"/>
+      <textbox id="key"/>
+    </row>
+    <row align="center">
+      <label value="Month"/>
+      <textbox id="month"/>
+    </row>
+    <row align="center">
+      <label value="Note"/>
+      <textbox id="note"/>
+    </row>
+    <row align="center">
+      <label value="Number"/>
+      <textbox id="number"/>
+    </row>
+    <row align="center">
+      <label value="Organization"/>
+      <textbox id="organization"/>
+    </row>
+    <row align="center">
+      <label value="Pages"/>
+      <textbox id="pages"/>
+    </row>
+    <row align="center">
+      <label value="Publisher"/>
+      <textbox id="publisher"/>
+    </row>
+    <row align="center">
+      <label value="Series"/>
+      <textbox id="series"/>
+    </row>
+    <row align="center">
+      <label value="Title"/>
+      <textbox id="title"/>
+    </row>
+    <row align="center">
+      <label value="Type"/>
+      <textbox id="type"/>
+    </row>
+	<row align="center">
+      <label value="Volume"/>
+      <textbox id="volume"/>
+    </row>
+    <row align="center">
+      <label value="Year"/>
+      <textbox id="year"/>
+    </row>
+  </rows>
+</grid>
+    </tabpanel>
+    <tabpanel>
+      <!-- Content for the advanced panel. -->
+    </tabpanel>
+  </tabpanels>
+</tabbox>
+  
+  	
+  
   </vbox>
+  
+  
 </page>
